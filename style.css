@@ -1,0 +1,165 @@
+.container {
+    max-width: 1440px;;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: rgb(248, 244, 218);
+    display: flex;
+    justify-content:space-between;
+    height: 100px;
+}
+
+.header:hover{
+    background-color: rgba(198, 191, 191, 0.8);
+}
+
+.vetola{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 20px;
+    transition: font-size 0.5s
+}
+
+.h2-header{
+    font-weight: 600;
+    transition: font-size 0.5s
+}
+
+.header-nav .ul-header{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;   
+}
+
+.li-header{
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 600;
+    transition: font-size 0.5s
+}
+
+.li-header a{
+    text-decoration: none;
+    color: rgb(39, 37, 37);
+}
+
+
+
+.li-header:hover{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.icons{
+    font-weight: 600;
+    transition: font-size 0.5s
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+.h2-header:hover{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.symbols{
+    padding: 30px 20px;
+}
+
+.main_container{
+    position: relative;
+    padding-left: 0;
+}
+
+.main_img{
+    width: 1440px;
+    position: relative;
+}
+
+.main_title{
+    position: absolute;
+    justify-content: center;
+    z-index: 1;
+    right: 390px;
+    bottom: 100px; 
+}
+
+.main_title h1{
+    font-size: 45px;
+    border: 3px rgb(49, 45, 45) solid;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.title-categories{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.title-categories h1{
+    font-size: 45px;
+}
+
+.grid-categories{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(1, 420px);
+    justify-content: center;
+    background-color:   rgba(248, 244, 218, 0.8);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.h4_grid{
+    margin: 0;
+}
+
+
+.img_grid{
+    width: 300px;
+    height: 350px;
+    transition: transform 0.5s
+}
+
+.img_grid:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(198, 191, 191, 0.8);
+    
+}
+
+.nav_footer p {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 5px 20px;
+}
+
+.nav_footer li{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.form{
+    padding: 20px 20px 0 0;
+}
+
+.form p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
